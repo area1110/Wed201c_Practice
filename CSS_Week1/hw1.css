@@ -1,0 +1,42 @@
+header {
+    background-color: #B2B2B2;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #010180;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #000;
+    background-color: #C5C5C5;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+abbr {
+    text-decoration: none;
+}
+
+table th {
+    font-weight: 600;
+}
+
+.left {
+    display: none;
+}
+
+section {
+    background-color: #7F7F7F;
+}
+
