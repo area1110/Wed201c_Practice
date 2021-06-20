@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .demo {
+                background-color: cyan;
+            }
+            .clicked {
+                background-color: red;
+            }
+        </style>
+        <script>
+            function click(){
+                x = document.getElementById("1");
+                x.innerHTML="Đã Nhấn"
+                x.className = "clicked"
+                
+            }
+        </script>
+    </head>
+    <body>
+        <button type="button" id="1" class="demo" onclick="click()">Nút 1</button>
+    </body>
+</html>
