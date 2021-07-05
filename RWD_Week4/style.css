@@ -32,15 +32,17 @@ a {
     text-decoration: none;
 }
 
-#detail {
-    padding: 10px;
-}
-
 #detail-bg {
     width: 100%;
     height: 100%;
     background-color: #eff6e0a8;
     position: fixed;
+    align-items: center;
     display: none;
 }
 
+/* @media screen and (min-width: 1240px){
+    #detail {
+        width: 90%;
+    }
+} */
