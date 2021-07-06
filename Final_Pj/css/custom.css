@@ -1,0 +1,44 @@
+.masthead-subheading,
+.masthead-heading {
+  text-shadow: 10px 5px 10px #000;
+}
+
+header.masthead {
+  background-attachment: fixed;
+}
+
+.btn-primary {
+  background-color: #b1cc29;
+  border-color: #b1cc29;
+}
+
+.btn-primary:hover {
+  background-color: #b1cc29;
+  border-color: transparent;
+  box-shadow: 0px 0px 20px #c8d48d;
+}
+.btn-primary:active {
+  background-color: #545f1a;
+}
+
+#mainNav .navbar-brand {
+  color: #b1cc29;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #b1cc29;
+}
+
+.text-primary {
+  color: #b1cc29 !important;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background-color: #b1cc29c4;
+}
+
+.btn-dark:hover {
+    background-color: #B1CC29;
+    border-color: #B1CC29;
+  }
