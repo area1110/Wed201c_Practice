@@ -52,12 +52,23 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 function submitMail() {
   var formSendMail = document.forms["sendMail"];
-  var subjectVal = formSendMail["subjectTotal"];
-  subjectVal.value =
+  var subjectVal = formSendMail["subjectTotal"].value;
+  subjectVal =
     "Mail_contact_from_Portfolio:" +
     formSendMail["name"].value +
     "-" +
     formSendMail["phone"].value +
     ":" +
     formSendMail["subjectContent"].value;
+
+  if (
+    formSendMail["name"].value != "" &&
+    formSendMail["phone"].value != "" &&
+    formSendMail["phone"].value.match("[0-9]{9,10}")
+  ) {
+    var body = formSendMail["body"].value;
+    window.location.replace(
+      `mailto:khanhhuy1110@gmail.com?body=${body}&subject=${subjectVal}`
+    );
+  }
 }
