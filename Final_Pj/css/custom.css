@@ -42,3 +42,7 @@ header.masthead {
     background-color: #B1CC29;
     border-color: #B1CC29;
   }
+
+  .timeline > li .timeline-image {
+      background-color: #B1CC29;
+  }
