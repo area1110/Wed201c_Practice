@@ -54,11 +54,11 @@ function submitMail() {
   var formSendMail = document.forms["sendMail"];
   var subjectVal = formSendMail["subjectTotal"].value;
   subjectVal =
-    "Mail_contact_from_Portfolio:" +
+    "(Mail contact from Portfolio) " +
     formSendMail["name"].value +
-    "-" +
+    " - " +
     formSendMail["phone"].value +
-    ":" +
+    ": " +
     formSendMail["subjectContent"].value;
 
   if (
