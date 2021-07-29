@@ -3,7 +3,7 @@ function upDate(previewPic) {
   y = previewPic.getAttribute("src");
   x.style.backgroundImage = "url('" + y + "')";
   x.innerHTML = previewPic.getAttribute("alt");
-  
+
 }
 
 function unDo() {
