@@ -66,23 +66,6 @@
     }
 }
 
-/* @media all and (max-width: 500px) {
-    .service>.title {
-        width: 85%;
-        bottom: 0;
-    }
-
-    .service>.title>h3 {
-        font-size: x-large;
-    }
-
-    .service>.title>p {
-        font-size: inherit;
-    }
-} */
-
-
-
 .card {
     background-color: #DADADA;
     margin: 20px;
