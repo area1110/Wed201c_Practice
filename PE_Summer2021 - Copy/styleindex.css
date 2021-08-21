@@ -10,11 +10,12 @@
 .service {
     display: flex;
     margin: 20px ;
+    max-width: 400px;
+    margin: 20px auto;
 }
 
 .service>img {
     z-index: 1;
-    margin: 0 auto;
     width: 100%;
 }
 
@@ -25,7 +26,7 @@
     bottom: 19px;
     background-color: rgba(128, 128, 128, 0.411);
     color: white;
-    width: 222.5px;
+    width: 262.5px;
     padding: 10px;
 }
 
@@ -36,32 +37,36 @@
 
 @media all and (max-width: 1199px) {
     .service>.title {
-        width: 172.5px;
+        width: 212.5px;
         bottom: 19px;
         
     }
 
     .service>.title>h3 {
-        font-size: 13px;
+        font-size: 1.2em;
     }
 
     .service>.title>p {
-        font-size: 11px;
+        font-size: 0.9em;
     }
 }
 
 @media all and (max-width: 991px) {
     .service>.title {
-        width: 90%;
+        width:400px ;
         bottom: 0;
     }
 
     .service>.title>h3 {
-        font-size: large;
+        font-size: 2em;
+    }
+
+    .service>.title>p {
+        font-size: 1.5em;
     }
 }
 
-@media all and (max-width: 500px) {
+/* @media all and (max-width: 500px) {
     .service>.title {
         width: 85%;
         bottom: 0;
@@ -74,7 +79,7 @@
     .service>.title>p {
         font-size: inherit;
     }
-}
+} */
 
 
 
